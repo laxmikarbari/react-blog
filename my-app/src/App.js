@@ -18,10 +18,10 @@ function App(){
         
       <Routes>
       <Route path="/" element={<HomePage/>}></Route>
-      <Route path="/About" element={<AboutPage/>}></Route>
-      <Route path="/Article" element={<ArticlePage/>}></Route>
-      <Route path="/Articles" element={<ArticlelistPage/>}></Route>
-      <Route path="/Notfound" element={<NotfoundPage/>}></Route>
+      <Route path="/about" element={<AboutPage/>}></Route>
+      <Route path="/articles" element={<ArticlelistPage/>}></Route>
+      <Route path="/articles/:articleId" element={<ArticlePage/>}></Route>
+      <Route path="/notfound" element={<NotfoundPage/>}></Route>
 
     </Routes>
 

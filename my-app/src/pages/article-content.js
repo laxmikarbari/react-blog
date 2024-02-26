@@ -1,7 +1,7 @@
 const article = [ 
 {
         name:"split-js",
-        title:" best way to lear split",
+        title:" best way to learn split",
         content : [
             "this is first article first content",
             "this is first article second content",
@@ -9,8 +9,8 @@ const article = [
         ],
     },
     {
-        name:"Map-js",
-        title:" best way to lear Map",
+        name:"map-js",
+        title:" best way to learn Map",
         content : [
             "this is second article first content",
             "this is second article second content",
@@ -19,13 +19,13 @@ const article = [
     },
     {
         name:"filter-js",
-        title:" best way to lear filter",
+        title:" best way to learn filter",
         content : [
             "this is third article first content",
             "this is third article second content",
             "this is third article third content",
         ],
-    },
+    }
 
-]
+];
 export default article;
