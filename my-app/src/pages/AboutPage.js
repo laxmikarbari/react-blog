@@ -1,7 +1,7 @@
 function AboutPage(){
     return(
         <>
-        <h1>PARAGRAPH STRUCTURE</h1>
+        <h2>PARAGRAPH STRUCTURE</h2>
         <p>A well-organized paragraph supports or develops a single controlling idea, which is expressed in a sentence called the topic sentence. 
             A topic sentence has several important functions: it substantiates or supports an essay’s thesis statement; 
             it unifies the content of a paragraph and directs the order of the sentences; and it advises the reader of the subject to be discussed and how the paragraph will discuss it. 
