@@ -12,14 +12,11 @@ function ArticlePage(){
         return (
             <>
             <h1>{article.title}</h1>
-             
-             {article.content.map(paragraph =>(
-                 <div>
-                    <p>{paragraph}</p>
-                 </div>
+             {article.content.map((paragraph,i) =>(
+                   <div key ={i}>
+                     {paragraph}
+                   </div>
                     
-                
-            
              ))}
             </>
         );
